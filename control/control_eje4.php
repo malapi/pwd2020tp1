@@ -7,9 +7,9 @@ class control_eje4  {
         $apellido = $datos['apellido'];
         $edad = $datos['edad'];
         $direccion = $datos['direccion'];
-        echo "Hola yo soy ".$nombre.", ".$apellido." tengo ".$edad." y vivo en ".$direccion;
+        $texto = "Hola yo soy ".$nombre.", ".$apellido." tengo ".$edad." y vivo en ".$direccion;
      // print_r($datos);
-
+     return $texto;
     }
 
     public function verificarEdad($datos){
@@ -17,11 +17,14 @@ class control_eje4  {
         $apellido = $datos['apellido'];
         $edad = $datos['edad'];
         $direccion = $datos['direccion'];
+        $texto ="";
         if ($edad >=18)
-                echo "Hola yo soy ".$nombre.", ".$apellido." y soy mayor de edad;";
+                $texto =  "Hola yo soy ".$nombre.", ".$apellido." y soy mayor de edad;";
         else
-                echo "Hola yo soy ".$nombre.", ".$apellido." y NO soy mayor de edad;";
+                $texto = "Hola yo soy ".$nombre.", ".$apellido." y NO soy mayor de edad;";
      // print_r($datos);
+
+     return $texto;
 
     }
 
