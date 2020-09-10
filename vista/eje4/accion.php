@@ -8,6 +8,9 @@ $datos = data_submitted();
 $obj = new control_eje4();
 $respuesta = $obj->verificarEdad($_GET);
 
+$obj2 = new control_eje3();
+$respuesta .= $obj2->verInformacion($_GET);
+
 
 ?>
 

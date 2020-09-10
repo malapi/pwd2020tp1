@@ -1,5 +1,5 @@
 <?php 
-$Titulo = " Ejercicio 4"; 
+$Titulo = " Ejercicio 3"; 
 include_once("../estructura/cabecera.php");
 ?>
 
@@ -11,7 +11,7 @@ Cambiar el método Post por Get y analizar las diferencias
 </p>
 
 <!---->
-<form  id="eje4" name="eje4" method="GET" action="accion.php">
+<form  id="eje3" name="eje3" method="POST" action="accion.php">
 <!--<form  id="eje4" name="eje4" method="POST" action="accion.php">-->
 
 <p>Nombre: <input type="text" name="nombre" size="100" placeholder="Escriba sus nombre completo" ></p>
@@ -20,7 +20,7 @@ Cambiar el método Post por Get y analizar las diferencias
 <p>Direccion: <textarea name="direccion" id="direccion" rows="2" cols="100" placeholder="Escriba su direccion completa"></textarea></p>
 
 
-<input id="btn_eje4"  name="btn_eje4" type="submit" value="Enviar">
+<input id="btn_eje3"  name="btn_eje3" type="submit" value="Enviar">
 
 </form >
 
